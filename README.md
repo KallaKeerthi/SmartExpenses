@@ -1,1 +1,0 @@
-# smart_expense_splitter
