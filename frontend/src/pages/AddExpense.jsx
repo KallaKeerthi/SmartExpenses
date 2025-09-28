@@ -165,10 +165,10 @@ export const AddExpense = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="participants">Split Between</Label>
+                  <Label htmlFor="participants">Split Between Participants ID</Label>
                   <Input
                     id="participants"
-                    placeholder="John, Jane, Bob (comma separated)"
+                    placeholder="63a5iu8n6287, 8687hiu3hf7j (comma separated)"
                     value={formData.participants}
                     onChange={(e) => handleInputChange('participants', e.target.value)}
                   />
