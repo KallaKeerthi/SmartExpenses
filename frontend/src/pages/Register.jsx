@@ -27,7 +27,7 @@ export const Register = () => {
         title: "Account created!",
         description: "Welcome to Smart Expenses. You've been successfully registered.",
       });
-      navigate('/dashboard');
+      navigate('/login');
     } catch (error) {
       toast({
         title: "Registration Failed",
